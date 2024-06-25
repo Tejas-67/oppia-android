@@ -9,6 +9,7 @@ protobuf {
       } else {
         artifact = "com.google.protobuf:protoc:3.8.0"
       }
+    //this is a new line
     // To build protoc in M1 mac. For context, see: #3912.
     if (osdetector.os == "osx") {
       Properties properties = new Properties()
